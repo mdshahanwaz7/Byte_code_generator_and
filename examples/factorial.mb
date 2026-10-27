@@ -1,0 +1,35 @@
+// Compute factorial(5) and the first 10 Fibonacci numbers.
+
+func factorial(n) {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+func fib(n) {
+    if (n < 2) {
+        return n;
+    } else {
+        return fib(n - 1) + fib(n - 2);
+    }
+}
+
+let fact5 = factorial(5);
+let fib10 = fib(10);
+let message = "MiniByte says hello, " + "world";
+
+let i = 0;
+let sum = 0;
+while (i < 5) {
+    sum = sum + i;
+    i = i + 1;
+}
+func add(a, b) {
+    return a + b;
+}
+
+let x = 10;
+let y = 25;
+let sum = add(x, y);

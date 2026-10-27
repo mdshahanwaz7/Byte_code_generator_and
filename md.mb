@@ -1,0 +1,8 @@
+// Welcome to MiniByte!
+func add(a, b) {
+    return a + b;
+}
+
+let x = 10;
+let y = 25;
+print("sum =", add(x, y));
